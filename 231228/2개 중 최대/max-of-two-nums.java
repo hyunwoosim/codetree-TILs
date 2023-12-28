@@ -7,7 +7,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        int c = a > b ? 2 : 5;
+        int c = a > b ? a : b;
         System.out.println(c);
     }
 }
