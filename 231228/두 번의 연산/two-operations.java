@@ -9,5 +9,7 @@ public class Main {
         if ( a%2 == 1)
             a += 3;
             System.out.println(a/3);
+            if (a%2 == 1)
+            a/=3;
            
 }
