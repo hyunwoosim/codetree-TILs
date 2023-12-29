@@ -11,12 +11,12 @@ public class Main {
         if (a<b){
             System.out.print("1 ");
         }else{
-            System.out.print("0");
+            System.out.print("0 ");
         }
         if(a == b) {
-            System.out.print("1 ");
+            System.out.println("1");
         }else{
-            System.out.print("0");
+            System.out.println("0");
         }
     }
 }
