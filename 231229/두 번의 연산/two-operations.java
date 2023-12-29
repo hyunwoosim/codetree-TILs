@@ -6,13 +6,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
 
-        if ( a%2 == 1){
+        if(a%2 == 1){
             a += 3;
-        
-        if (a%3 == 0 ){
-        
-         System.out.println(a/3);
-    }
-    }
+            
+        }
+        if(a%3 == 0){
+            System.out.println(a/3);
+        }
     }
 }
