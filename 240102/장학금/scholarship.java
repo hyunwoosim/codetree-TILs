@@ -9,7 +9,7 @@ public class Main {
         a = sc.nextInt();
         b = sc.nextInt();
 
-        if (a < 90) { 
+        if (a <= 89) { 
             System.out.println("0");
         }else if (b >= 95) {
             System.out.println("100000");
