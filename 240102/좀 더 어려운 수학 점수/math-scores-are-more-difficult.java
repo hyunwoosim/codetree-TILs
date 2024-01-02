@@ -7,10 +7,10 @@ public class Main {
 
         int m , e, e2, m2;
 
-        e = sc.nextInt();
-        m = sc.nextInt(); 
-        e2 = sc.nextInt();
+        m = sc.nextInt();
+        e = sc.nextInt(); 
         m2 = sc.nextInt();
+        e2 = sc.nextInt();
 
         if(m > m2 || (m == m2 && e > e2))
             System.out.println("A");
