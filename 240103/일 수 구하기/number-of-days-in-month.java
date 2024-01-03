@@ -8,16 +8,20 @@ public class Main {
 
        
 
-        if (n ==2 ){
+         if(n == 2)
             System.out.println("28");
-        }else if (n =< 7 && n % 2 ==1 ){
-            System.out.pritnln("31");
-        }else {
-            System.out.println("30");
-        }if(n >= 8 && n%2 == 0){
-            System.out.pritnln("31");
-        }else {
-            System.out.pritnln("30");
+        else if(n <= 7) {
+            if(n % 2 == 1)
+                System.out.println("31");
+            else
+                System.out.println("30");
         }
+        else {
+            if(n % 2 == 0)
+                System.out.println("31");
+            else
+                System.out.println("30");
+        }
+        
     }
 }
