@@ -13,7 +13,7 @@ public class Main {
         if((a > b && a< c) || (a > c && a< b)){
         System.out.printf("%d",a);
         }else{
-            if(b<c ){
+            if(b<c && c>a ){
                 System.out.printf("%d",b);
             }else{
                 System.out.printf("%d",c);
