@@ -24,7 +24,7 @@ public class Main {
             }
         }else 
         {if((c2 == 'Y' && t2 >= 37) && (c3 == 'Y' && t3 >= 37)){
-            System.out.println("Y");
+            System.out.println("E");
         }else{
             System.out.println("N");
         }
