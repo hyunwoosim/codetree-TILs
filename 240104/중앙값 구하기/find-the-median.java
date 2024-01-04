@@ -10,14 +10,22 @@ public class Main {
         b = sc.nextInt();
         c = sc.nextInt();
 
-        if((a > b && a< c) || (a > c && a< b)){
-        System.out.printf("%d",a);
-        }else{
-            if(b<c && c>a ){
-                System.out.printf("%d",b);
-            }else if (b>c){
-                System.out.printf("%d",c);
+        if(a >= b){
+            if (b >= c){
+                System.out.println(b);
+            }else if(a <=c){
+                System.out.println(a);
+            }else{
+                    System.out.println(c);
+                }
+            
+            }else if(c <a){
+                System.out.println(a);
+            }else if (b> c){
+                System.out.println(c);
+            }else {
+                System.out.println(b);
             }
-        }
+        
     }
-}
+    }
