@@ -22,10 +22,12 @@ public class Main {
             }else {
                 System.out.println("N");
             }
-        }else if((c2 == 'Y' && t2 >= 37) && (c3 == 'Y' && t3 >= 37)){
+        }else 
+        {if((c2 == 'Y' && t2 >= 37) && (c3 == 'Y' && t3 >= 37)){
             System.out.println("Y");
         }else{
             System.out.println("N");
+        }
         }
     }
 }
