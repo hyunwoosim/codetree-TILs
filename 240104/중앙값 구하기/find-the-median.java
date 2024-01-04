@@ -10,14 +10,10 @@ public class Main {
         b = sc.nextInt();
         c = sc.nextInt();
 
-        if(a > b){
-            if (a<c){
-                System.out.printf("%d",a);
-            }
-
-
+        if((a > b && a< c) || (a > c && a< b)){
+        System.out.printf("%d",a);
         }else{
-            if(b<c){
+            if(b<c ){
                 System.out.printf("%d",b);
             }else{
                 System.out.printf("%d",c);
