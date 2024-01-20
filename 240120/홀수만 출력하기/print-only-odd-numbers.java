@@ -6,10 +6,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        for(int i = 1; n<= 10;i++ ){
-                n = i;
-        if(n%2 == 1 && n%3 == 0){
-            System.out.println(n);
+        for(int i = 10; i<=n ;--i ){
+                int f = i;
+               
+             if(f%2 == 1 && f%3 == 0){
+            System.out.println(f);
         }
         }
     }
