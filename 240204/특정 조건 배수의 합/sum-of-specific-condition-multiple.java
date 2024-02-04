@@ -8,9 +8,17 @@ public class Main {
         int b = sc.nextInt();
         int sumVal = 0;
 
+        if(a<b){
         for(int i = a ; i<=b; i++){
             if(i%5==0){
                 sumVal += i;
+            }
+        }
+        }else{
+            for(int i = b; i<=b; i++){
+                if(i%5==0){
+                    sumVal += i;
+                }
             }
         }
         System.out.println(sumVal);
