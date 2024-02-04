@@ -14,8 +14,8 @@ public class Main {
                 sumVal += i;
             }
         }
-        }else{
-            for(int i = b; i<=b; i++){
+        }else {
+            for(int i = b; i<=a; i++){
                 if(i%5==0){
                     sumVal += i;
                 }
