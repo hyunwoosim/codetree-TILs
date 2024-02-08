@@ -5,15 +5,16 @@ public class Main {
         Scanner sc = new Scanner(System.in);
        
         
-        for(int i = 0; i<=3; i++){
+        for(int i = 0; i<=100; i++){
              int n = sc.nextInt();
                 int a= 0;
-               
-            if((n%2==0)){
+               int cnt =1;
+            if(n%2==0){
               a= n/2;    
-           
+              cnt++;
                 System.out.println(a);
-        
+            }if(cnt ==3){
+                break;
             }
      
      
