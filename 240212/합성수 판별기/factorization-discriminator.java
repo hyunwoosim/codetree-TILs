@@ -11,7 +11,8 @@ public class Main {
         for(int i =2; i<=n;i++ ){
             if(n%i == 0){
                 bool = true;
-            }
+            }else
+                break;
         }
         if (bool == true){
             System.out.println("C");
