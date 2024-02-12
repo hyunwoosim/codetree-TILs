@@ -7,7 +7,7 @@ public class Main {
         int n = sc.nextInt();
         boolean bool = false;
 
-        for(int i = 2 ; i<=n; i++){
+        for(int i = 2 ; i<n; i++){
             if(n % i==0){
                 bool = true;
             }
