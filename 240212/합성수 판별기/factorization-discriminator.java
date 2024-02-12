@@ -13,6 +13,7 @@ public class Main {
                 bool = true;
             
         }
+        }
         if (bool == true){
             System.out.println("C");
         }else{
