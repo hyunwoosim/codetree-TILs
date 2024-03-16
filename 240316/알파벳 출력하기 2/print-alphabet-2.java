@@ -12,14 +12,14 @@ public class Main {
             for(int q = n; q>= 1; q-- ){
                 if(q>i){
                     System.out.print("  ");
-                }else{
+                }else if(cnt == 'Z'){
 
                 System.out.print((char)cnt+ " ");
-                cnt++;
+                cnt = 'A';
                 }
-                if(cnt == 'Z'){
+                else{
                     System.out.print((char)cnt+ " ");
-                    cnt = 'A';
+                     cnt++;
                 }
             }
             System.out.println();
