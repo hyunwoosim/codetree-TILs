@@ -8,9 +8,10 @@ public class Main {
         int s = sc.nextInt();
         int e = sc.nextInt();
         int cnt = 0;
-        int sum =0;
+        
 
         for(int i = s; i <=e; i++){
+                int sum =0;
             for( int q = 1; q <= i-1; q++){
                 if(i %q == 0){
                     sum +=q;
