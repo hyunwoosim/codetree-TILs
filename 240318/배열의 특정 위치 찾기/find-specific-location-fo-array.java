@@ -12,15 +12,18 @@ public class Main {
 
         for(int i = 0; i < 10; i++){
             arr[i] = sc.nextInt();
-            if(arr[i]%2==0){
+        }
+
+    for(int i = 0 ; i< 10 ; i++);
+            
+            if((i+1)%2==0){
                 sum += arr[i];
-                continue;
             }
-            if(arr[i]%3 ==0){
+            if((i+1)%3 ==0){
                 sum2 += arr[i];
                 cnt ++;
             }
-        }
+        
         avg = (double)sum2/cnt;
         System.out.printf("%d %.1f", sum, avg);
     }
