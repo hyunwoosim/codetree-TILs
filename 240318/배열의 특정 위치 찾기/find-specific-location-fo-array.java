@@ -14,6 +14,7 @@ public class Main {
             arr[i] = sc.nextInt();
             if(arr[i]%2==0){
                 sum += arr[i];
+                continue;
             }
             if(arr[i]%3 ==0){
                 sum2 += arr[i];
