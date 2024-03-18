@@ -14,7 +14,7 @@ public class Main {
                     if(arr[i]== 0)
                     break;
             }
-            for(int i = cnt-1; i >=0; i--){
+            for(int i = cnt-1; i >=cnt-4; i--){
                 sum += arr[i];
             }
             System.out.println(sum);
