@@ -8,13 +8,13 @@ public class Main {
         int sum = 0;
         int sum2 = 0;
         int cnt = 0;
-        double avg = 0;
+        
 
         for(int i = 0; i < 10; i++){
             arr[i] = sc.nextInt();
         }
 
-    for(int i = 0 ; i< 10 ; i++);
+    for(int i = 0 ; i< 10 ; i++){
             
             if((i+1)%2==0){
                 sum += arr[i];
@@ -23,8 +23,8 @@ public class Main {
                 sum2 += arr[i];
                 cnt ++;
             }
-        
-        avg = (double)sum2/cnt;
+    }
+       double avg = (double)sum2/cnt;
         System.out.printf("%d %.1f", sum, avg);
     }
 }
