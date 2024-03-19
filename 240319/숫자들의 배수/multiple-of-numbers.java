@@ -7,10 +7,8 @@ public class Main {
 
         int cnt = 0;
         int[] arr = new int[100];
-           arr[1] = sc.nextInt();
-           System.out.print(arr[1] + " ");
-
-        for(int i = 2; i < 100; i++){
+        arr[1] = sc.nextInt();
+        for(int i = 1; i < 100; i++){
              
             arr[i] = arr[1] * i;
            
