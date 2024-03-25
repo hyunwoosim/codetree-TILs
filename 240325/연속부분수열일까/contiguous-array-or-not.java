@@ -24,7 +24,7 @@ public class Main {
                
             }
         }
-        if(cnt ==2){
+        if(cnt >=2){
             System.out.print("Yes");
         }else{
             System.out.print("No");
