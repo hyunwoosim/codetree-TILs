@@ -8,9 +8,10 @@ public class Main {
 
         String A = a+b;
         String B = b+a;
-        
 
-        if(A == B){
+
+
+        if(A.equals(B)){
             System.out.println("true");
         } else {
             System.out.println("false");
