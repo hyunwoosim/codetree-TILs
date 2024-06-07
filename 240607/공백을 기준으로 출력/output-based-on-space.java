@@ -12,18 +12,16 @@ public class Main {
            if(str1.charAt(i) != ' '){
            arr[count] = str1.charAt(i);
             count++;
-           
            }
+           
         }     
-
         for(int i = 0; i < str2.length(); i++){
            if(str2.charAt(i) != ' '){
            arr[count] = str2.charAt(i);
             count++;
-           
            }
         }   
-        for(int i = 0; i < count; i++){
+        for(int i = 0; i <count; i++){
             System.out.print(arr[i]);
         }
     }
