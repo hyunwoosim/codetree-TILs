@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String str1 = sc.nextLine();
         String str2 = sc.nextLine();
-        char[] arr = new char[100];
+        char[] arr = new char[200];
         int count =0;
 
         for(int i = 0; i < str1.length(); i++){
