@@ -11,7 +11,7 @@ public class Main {
             System.out.println((char) A);
         } else{
             int A = (int) a;
-            A = 65;
+            A = 97;
             System.out.println((char) A);
         }
     }
