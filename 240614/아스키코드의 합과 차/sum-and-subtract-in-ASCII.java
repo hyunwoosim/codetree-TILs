@@ -10,6 +10,10 @@ public class Main {
         int B = (int) b;
 
         System.out.print(A+B + " ");
-        System.out.print(B-A);   
+        if( A> B){
+        System.out.print(A-B);   
+        } else{
+            System.out.print(B-A);   
+        }
     }
 }
